@@ -16,7 +16,73 @@
 </head>
 
 <body>
+  <h2>Useful links</h2>
+  <ul>
+    <li>
+      <a
+        href="https://www.google.com/maps"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="google.com/maps"
+      >https://www.google.com/maps</a>
+    </li>
 
+    <li>
+      <a
+        href="https://www.coduripostale.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="coduripostale.com/"
+      >https://www.coduripostale.com</a>
+    </li>
+  </ul>
+
+  <h2>Address Form</h2>
+
+  <form action="">
+    <fieldset>
+      <legend>Address Information:</legend>
+      <label for="">Title:</label>
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      ><br><br>
+
+      <label for="state">*State:</label>
+      <select
+        name="state"
+        id="state"
+        required
+      >
+        <option value="">--State--</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="florida">Florida</option>
+        <option value="maine">Maine</option>
+      </select><br><br>
+
+      <label for="postcode">*Postcode:</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
+      >
+
+    </fieldset>
+
+  </form>
 
   <div
     class="pixeltab-host"
