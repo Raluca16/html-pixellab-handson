@@ -83,22 +83,22 @@
       <!-- ./header-connect -->
 
       <section class="header-controls">
-        <ul>
-          <li>
-            <form>
-              <button>
-                <title>Search</title>
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-              <input
-                type="text"
-                title="Search"
-                name="Search"
-                placeholder="Search"
-              >
-            </form>
-          </li>
 
+        <form class="header-search">
+          <button>
+            <title>Search</title>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <input
+            type="submit"
+            title="Search"
+            name="Search"
+            placeholder="Search"
+          >
+        </form>
+        <!-- ./form.header-search -->
+
+        <ul>
           <li class="user-controls">
             <a
               href="/"
@@ -131,7 +131,7 @@
     </section>
     <!-- ./header-top -->
 
-    <section class="header-bottom">
+    <nav class="header-bottom">
       <ul>
         <li>
           <a
@@ -175,7 +175,7 @@
           >Lookbook</a>
         </li>
       </ul>
-    </section>
+    </nav>
     <!-- ./header-bottom -->
   </header>
   <!-- ./header -->
@@ -212,7 +212,7 @@
           truth, the master-builder of human happiness. No
         </p>
       </section>
-      <!-- ./home-content.text -->
+      <!-- ./home-content-text -->
     </section>
     <!-- ./main.home-content -->
 
@@ -230,7 +230,7 @@
 
   <footer class="footer">
     <section class="footer-inner">
-      <section class="footer-inner-support">
+      <nav class="footer-support">
         <ul>
           <li>
             <a
@@ -250,10 +250,10 @@
             </a>
           </li>
         </ul>
-      </section>
-      <!-- ./footer-inner-support -->
+      </nav>
+      <!-- ./footer-support -->
 
-      <nav class="footer-inner-details">
+      <nav class="footer-nav">
         <ul>
           <li>
             <a
@@ -284,7 +284,7 @@
           </li>
         </ul>
       </nav>
-      <!-- ./footer-inner-details -->
+      <!-- ./footer-nav -->
 
       <nav class="footer-inner-infos">
         <ul>
@@ -319,9 +319,12 @@
       </nav>
       <!-- ./footer-inner-infos -->
 
-      <section class="footer-inner-subscriptions">
-        <p>sign up for our newsletter</p>
-        <form>
+      <section class="footer-connect">
+        <form class="footer-newsletter">
+          <label
+            for="Email address"
+            title="Email address"
+          >sign up for our newsletter</label>
           <input
             type="text"
             name="Email address"
@@ -335,7 +338,7 @@
           >Submit</button>
         </form>
 
-        <ul>
+        <ul class="footer-social">
           <li>
             <a
               href="http://youtube.com"
@@ -380,7 +383,7 @@
             </a>
           </li>
       </section>
-      <!-- ./footer-inner-subscriptions -->
+      <!-- ./footer-connect -->
     </section>
     <!-- ./footer-inner -->
   </footer>
