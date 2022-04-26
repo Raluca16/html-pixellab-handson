@@ -22,7 +22,17 @@ body {
   background-color: bisque;
 }
 
-.box-1{
+.box-1 {
   color: purple;
   border-color: green;
+}
+
+.box-2 {
+  color: white;
+  border-color: grey;
+}
+
+.box-3 {
+  color: red;
+  border-color: blue;
 }
